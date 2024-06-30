@@ -1,0 +1,73 @@
+.recording-container {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  background-color: #F8F8FB;
+  padding: 10px;
+  border-radius: 10px;
+  width: 700px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.recording-item {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-wrapper {
+  width: 73px;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border: 1px solid #BFBFBF; /* changed to border shorthand */
+  border-radius: 10%;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.text-wrapper {
+  flex: 1;
+  height: 70px;
+  background-color: #dde8ef;
+  display: flex;
+  align-items: center;
+  justify-content:left;
+  border: 1px solid #BFBFBF;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.recording-message {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.rerdingvideo{
+  color:#2B87E3;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 20px;
+
+}
+
+.time-stamp {
+  color: #333;
+  font-size: 14px;
+  margin-left: 420px;
+  margin-right: 10px;
+  
+}
+.deletesymbolrec
+
+{   width: 20px;
+    height: 20px;
+   
+}

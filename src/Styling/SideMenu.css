@@ -1,0 +1,35 @@
+.SideMenu {
+  width: 200px;
+  background: transparent;
+  position: fixed; 
+  overflow-y: auto;
+  top: 0;
+  padding-top: 100px;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+}
+.menuItemContent {
+  display: flex;
+  align-items: center;
+  padding: 9px 24px;
+  height: 100%;
+  width: 100%;
+}
+.menuItem:hover {
+  background-color: #f0f0f0;
+}
+.menuItem .images {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.ant-menu-item-selected {
+  background-color: #274C77 !important;
+}
+.ant-menu-item-selected .images,
+.ant-menu-item-selected span {
+  color: white !important;
+}

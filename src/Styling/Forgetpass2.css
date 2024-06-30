@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .forgetpass2-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .forgetpass2-left-side {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0d142d;
+  }
+  
+  .forgetpass2-backimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .forgetpass2-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
+  
+  .forgetpass2-title {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 38.4px;
+  }
+  
+  .forgetpass2-centered-image {
+    margin-top: 20px;
+    height: 320px;
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  .forgetpass2-description {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .forgetpass2-sub-description {
+    font-size: 14px;
+    color: #cccccc;
+    padding-top: 10px;
+    font-weight: 100;
+    margin: 0;
+  }
+  
+  .forgetpass2-right-side {
+    margin-top: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .forgetpass2-main {
+    align-self: center;
+    font-size: 24.5px;
+    color: #1B1E28;
+  }
+  
+  .forgetpass2-text {
+    align-self: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7D848D;
+    line-height: 20px;
+  }
+  
+  .left-margin {
+    margin-left: 27px; /* Adjust the value as needed */
+  }
+
+
+  .forgetpass2-cont {
+    font-weight: 400;
+    margin-top:50px;
+    align-self: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-color: #274C77;
+    color: #274C77;
+    border-width: 1px;
+    border-style: solid;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .forgetcircle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    width: 59px;
+    background-color: #274C77;
+    border-radius: 50%;
+  }
+  
+  .forgetimages {
+    height: 35.16px;
+    width: 35.16px;
+  }
+  .check-email-text {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+   
+  }
+  
+  .instructions-text {
+    margin-top: 10px;
+    font-size: 16px;
+  
+  }

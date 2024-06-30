@@ -1,0 +1,66 @@
+.modal-overlay-custom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0b13392e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dailogbox-cont-custom {
+    font-weight: 400;
+    margin-top: 50px;
+    align-self: center;
+    height: 371px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 519px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: #274C77;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fontstlying {
+    margin-top: 62px; 
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.84px;
+}
+.fontstlyings
+{  
+    font-size: 18.56px;
+    font-weight: 500;
+    line-height: 21.75px;
+   
+}
+
+.dialogbox-button-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px; 
+}
+
+.Dailogboxpassword-button-custom {
+    width: 340px;
+    height: 50px;
+    padding: 15px;
+    font-size: 12px;
+    color: white;
+    background-color: #274C77;
+    border-radius: 10px;
+    border-color: #274C77;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.cancel-button-custom {
+    background-color: white;
+    color: #274C77;
+}

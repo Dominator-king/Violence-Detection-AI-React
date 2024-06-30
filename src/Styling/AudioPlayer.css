@@ -1,0 +1,20 @@
+.playvideo {
+  position: relative;
+  width: fit-content;
+  margin-left: 50px;
+  background-color: black;
+  width: 860px;
+  height: 430px;
+}
+
+.playbackvideo
+{
+  margin-top: 20px;
+  height: 410px;
+  width: 800px;
+  object-fit: cover; 
+  margin-left: 30px;
+  border-radius: 4px;
+}
+
+

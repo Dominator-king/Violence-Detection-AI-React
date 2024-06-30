@@ -1,0 +1,64 @@
+.Camerascreen {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  
+}
+.violenceDetected{
+  color: red;
+  
+}
+.violenceNotDetected{
+  color: green;
+  
+}
+.label{
+  font-size: 26.7px;
+  margin-top: 20px;
+  
+}
+
+.cameraimages {
+  height: 350px;
+  width: 800px;
+  object-fit: cover; 
+  border-radius: 4px;
+  display: block;
+}
+.cameradataandtime{
+  margin-top: 10px;
+  margin-left: 20px;
+  position: absolute;
+  color: white;
+  font-size: 26.7px;
+  font-weight:700;
+}
+.cameratext{
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 630px;
+  color: white;
+  font-size: 26.7px;
+  font-weight:700;
+ 
+  
+}
+.pauseandvoice {
+  margin-left: 650px;
+  position: absolute;
+  margin-top: 30%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+  cursor: pointer; 
+  transition: opacity 0.3s ease; 
+}
+
+.icons.active {
+  opacity: 0.5;
+}
